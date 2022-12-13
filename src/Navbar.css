@@ -1,0 +1,58 @@
+/* credit to https://www.w3schools.com/howto/howto_css_center-vertical.asp*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.navContainer {
+    height: 100px;
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: #12c2e9;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 1fr max-content;
+}
+
+.internIOContainer {
+    padding-top: 32px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navList {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navContainer li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.internIOContainer a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:26px;
+
+    
+}
+.guest_btn{
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.registerButton {
+    background-color: #ffffff;
+    border: 10px;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}

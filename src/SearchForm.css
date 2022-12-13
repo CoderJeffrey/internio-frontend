@@ -1,0 +1,55 @@
+.formContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.checkboxDesc {
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.checkBox {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.searchField {
+    padding: 4px 10px;
+    margin-top: 32px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+.searchButton {
+    
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.clearButton {
+    
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
